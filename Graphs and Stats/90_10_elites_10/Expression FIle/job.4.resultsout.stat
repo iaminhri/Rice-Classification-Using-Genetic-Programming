@@ -1,0 +1,848 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=494.0 Adjusted=0.00202020202020202 Hits=1030
+Tree 0:
+ (/ (* (- (exp eccentricity) (rlog eccentricity))
+     (/ (+ major_axis convex_area) (rlog area)))
+     (- (/ (* area perimeter) (rlog major_axis))
+         (exp (+ minor_axis extent))))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=494.0 Adjusted=0.00202020202020202 Hits=1030
+Tree 0:
+ (/ (- convex_area perimeter) (- (/ (* area
+     perimeter) (rlog major_axis)) (exp (+ minor_axis
+     extent))))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=314.0 Adjusted=0.0031746031746031746 Hits=1210
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     major_axis))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=314.0 Adjusted=0.0031746031746031746 Hits=1210
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     major_axis))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=314.0 Adjusted=0.0031746031746031746 Hits=1210
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     (+ perimeter extent)))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=314.0 Adjusted=0.0031746031746031746 Hits=1210
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     (+ perimeter extent)))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=314.0 Adjusted=0.0031746031746031746 Hits=1210
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     major_axis))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=312.0 Adjusted=0.003194888178913738 Hits=1212
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     (- minor_axis extent)))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=312.0 Adjusted=0.003194888178913738 Hits=1212
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog extent) (- (exp (/ extent
+     (+ perimeter extent))) (* minor_axis eccentricity)))))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=312.0 Adjusted=0.003194888178913738 Hits=1212
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     (+ minor_axis 0.0)))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=312.0 Adjusted=0.003194888178913738 Hits=1212
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog extent) (- (exp (/ extent
+     (+ perimeter minor_axis))) (* minor_axis
+     eccentricity)))))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=311.0 Adjusted=0.003205128205128205 Hits=1213
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog extent) (- (/ (- convex_area
+     perimeter) (- (/ (- (+ minor_axis extent)
+     (/ (+ major_axis convex_area) (rlog area)))
+     (- extent (+ eccentricity extent))) minor_axis))
+     (* minor_axis eccentricity)))))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=311.0 Adjusted=0.003205128205128205 Hits=1213
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (/ (/ area area) (/ extent extent))
+     major_axis)))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=311.0 Adjusted=0.003205128205128205 Hits=1213
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (exp (/ extent
+     (+ (rlog major_axis) extent)))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=301.0 Adjusted=0.0033112582781456954 Hits=1223
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (+ minor_axis
+     extent))) (- (/ (* convex_area (/ (exp 0.0)
+     (rlog area))) (- (rlog (rlog minor_axis))
+     (exp (+ minor_axis (exp (/ (/ (/ area area)
+         (/ extent extent)) major_axis)))))) (* minor_axis
+     eccentricity)))))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=301.0 Adjusted=0.0033112582781456954 Hits=1223
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (+ minor_axis
+     extent))) (- (/ (* convex_area (/ (exp 0.0)
+     (rlog (* (- extent major_axis) (/ (rlog eccentricity)
+         (/ extent extent)))))) (- (rlog (rlog minor_axis))
+     (exp (+ minor_axis (exp (/ (/ (/ area area)
+         (/ extent extent)) major_axis)))))) (* minor_axis
+     eccentricity)))))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=297.0 Adjusted=0.003355704697986577 Hits=1227
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (/ (exp extent) (- (/ major_axis
+     (- (/ (/ (rlog area) (rlog eccentricity))
+         extent) (+ (/ area minor_axis) (/ (* area
+         eccentricity) perimeter)))) (/ (+ area minor_axis)
+     (exp minor_axis)))) (- (/ perimeter (- (rlog
+     (rlog minor_axis)) (exp (+ minor_axis extent))))
+     (* minor_axis eccentricity)))))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=297.0 Adjusted=0.003355704697986577 Hits=1227
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (/ (exp extent) (- (/ major_axis
+     (- (/ (/ (rlog area) (rlog eccentricity))
+         extent) (+ (/ area minor_axis) (/ (* area
+         eccentricity) perimeter)))) (/ (+ area minor_axis)
+     (exp minor_axis)))) (- (/ perimeter (- (rlog
+     (rlog minor_axis)) (exp (+ minor_axis extent))))
+     (* minor_axis eccentricity)))))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=294.0 Adjusted=0.003389830508474576 Hits=1230
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (/ (exp extent) (- (/ major_axis
+     (- (/ (/ (rlog area) (rlog eccentricity))
+         extent) (+ (/ area minor_axis) (+ eccentricity
+         minor_axis)))) (/ (+ area minor_axis) (exp
+     minor_axis)))) (- (/ perimeter (- (rlog (rlog
+     minor_axis)) (exp (+ minor_axis extent))))
+     (* minor_axis eccentricity)))))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=284.0 Adjusted=0.0035087719298245615 Hits=1240
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (/ (/ (rlog
+     extent) (- minor_axis (* minor_axis eccentricity)))
+     (- (/ major_axis (- (/ (/ (rlog area) (rlog
+         eccentricity)) extent) (+ (/ area minor_axis)
+         (/ (* area eccentricity) perimeter)))) (/
+         (+ area minor_axis) (exp minor_axis)))) (exp
+     (/ (rlog extent) (- (exp (/ extent (+ perimeter
+         extent))) (/ (- (+ (+ major_axis convex_area)
+         extent) perimeter) (- (* minor_axis eccentricity)
+         (rlog (- minor_axis extent))))))))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=284.0 Adjusted=0.0035087719298245615 Hits=1240
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (/ (/ (rlog
+     extent) (- minor_axis (* minor_axis eccentricity)))
+     (- (/ major_axis (- (/ (/ (rlog area) (rlog
+         eccentricity)) extent) (+ (/ area minor_axis)
+         (/ (* area eccentricity) perimeter)))) (/
+         (+ area minor_axis) (exp minor_axis)))) (exp
+     (/ (rlog extent) (- (exp (/ extent (+ perimeter
+         extent))) (/ (- (+ (+ major_axis convex_area)
+         extent) perimeter) (- (* minor_axis eccentricity)
+         (rlog (- minor_axis extent))))))))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=284.0 Adjusted=0.0035087719298245615 Hits=1240
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (/ (/ (rlog
+     extent) (- minor_axis (* minor_axis eccentricity)))
+     (- (/ major_axis (- (/ (/ (rlog area) (rlog
+         eccentricity)) extent) (+ (/ area minor_axis)
+         (/ (* area eccentricity) perimeter)))) (/
+         (+ area minor_axis) (exp minor_axis)))) (exp
+     (/ (rlog extent) (- (exp (/ extent (/ extent
+         extent))) (/ (- (+ (+ major_axis convex_area)
+         extent) perimeter) (- (* minor_axis eccentricity)
+         (rlog (- minor_axis extent))))))))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=277.0 Adjusted=0.0035971223021582736 Hits=1247
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (/ (/ (rlog
+     extent) (- minor_axis (* minor_axis eccentricity)))
+     (- (/ major_axis (- (/ (/ (rlog area) (rlog
+         eccentricity)) extent) (+ (/ area minor_axis)
+         (/ (* area eccentricity) perimeter)))) (/
+         (+ area minor_axis) (exp minor_axis)))) (exp
+     (/ (rlog extent) (- (/ perimeter (- (rlog
+         (rlog minor_axis)) (exp (+ minor_axis extent))))
+         (* minor_axis eccentricity)))))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=277.0 Adjusted=0.0035971223021582736 Hits=1247
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (/ (/ (rlog
+     extent) (- minor_axis (* minor_axis eccentricity)))
+     (- (/ major_axis (- (/ (/ (rlog area) (rlog
+         eccentricity)) extent) (+ (/ area minor_axis)
+         (/ (* area eccentricity) perimeter)))) (/
+         (+ area minor_axis) (exp minor_axis)))) (exp
+     (/ (rlog extent) (- (/ perimeter (- (rlog
+         (rlog minor_axis)) (exp (+ minor_axis extent))))
+         (* minor_axis eccentricity)))))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=251.0 Adjusted=0.003968253968253968 Hits=1273
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis extent))))))
+     (- (/ (/ (/ minor_axis (+ extent convex_area))
+         (rlog minor_axis)) (- (rlog (rlog minor_axis))
+         (exp eccentricity))) (* minor_axis eccentricity)))))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=251.0 Adjusted=0.003968253968253968 Hits=1273
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis extent))))))
+     (- (/ (/ (/ minor_axis (+ extent convex_area))
+         (rlog minor_axis)) (- (rlog (rlog minor_axis))
+         (exp eccentricity))) (* minor_axis eccentricity)))))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=251.0 Adjusted=0.003968253968253968 Hits=1273
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis extent))))))
+     (- (/ (/ (/ minor_axis (+ extent convex_area))
+         (rlog minor_axis)) (- major_axis minor_axis))
+         (* minor_axis eccentricity)))))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=209.0 Adjusted=0.004761904761904762 Hits=1315
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis extent))))))
+     (- (/ (/ (/ minor_axis (+ extent convex_area))
+         (rlog minor_axis)) (- (rlog (rlog minor_axis))
+         (exp eccentricity))) perimeter))))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=209.0 Adjusted=0.004761904761904762 Hits=1315
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis extent))))))
+     (- (/ (/ extent (rlog minor_axis)) (- (rlog
+         (rlog minor_axis)) (exp eccentricity))) perimeter))))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=207.0 Adjusted=0.004807692307692308 Hits=1317
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (/ (rlog
+     (rlog minor_axis)) major_axis))) (- (/ (*
+     convex_area (/ (exp 0.0) (rlog (rlog (rlog
+     minor_axis))))) (- (rlog minor_axis) (rlog
+     (/ extent (* minor_axis (- minor_axis (exp
+         (+ minor_axis extent)))))))) (/ (* perimeter
+     0.0) (- (- (rlog (- (+ eccentricity minor_axis)
+     (- (rlog (- (- (+ eccentricity minor_axis)
+         (- major_axis minor_axis)) (- major_axis
+         minor_axis))) minor_axis))) (exp (+ (* perimeter
+     0.0) minor_axis))) (exp (+ minor_axis (exp
+     (/ (- (+ eccentricity minor_axis) (/ (exp
+         0.0) (rlog area))) major_axis))))))))))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=207.0 Adjusted=0.004807692307692308 Hits=1317
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (/ (rlog
+     (rlog minor_axis)) major_axis))) (- (/ (*
+     convex_area (/ (exp 0.0) (rlog (rlog (rlog
+     minor_axis))))) (- (rlog minor_axis) (rlog
+     (/ extent (* minor_axis (- minor_axis (exp
+         (+ minor_axis extent)))))))) (/ (* perimeter
+     0.0) (- (- (rlog (- (+ eccentricity minor_axis)
+     (rlog (- (+ eccentricity minor_axis) (- major_axis
+         minor_axis))))) (exp (+ (* perimeter 0.0)
+     minor_axis))) (exp (+ minor_axis (exp (/
+     (- (+ eccentricity minor_axis) (/ (exp 0.0)
+         (rlog area))) major_axis))))))))))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=207.0 Adjusted=0.004807692307692308 Hits=1317
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (/ (rlog
+     (rlog minor_axis)) major_axis))) (- (/ (*
+     convex_area (/ (exp 0.0) (rlog (rlog (rlog
+     minor_axis))))) (- (rlog minor_axis) (rlog
+     (/ extent (* minor_axis (- minor_axis (exp
+         (+ minor_axis extent)))))))) (/ (* perimeter
+     0.0) (- (- (rlog (- (/ (rlog extent) (- (-
+     minor_axis perimeter) (* minor_axis eccentricity)))
+     (- (rlog (- (- (+ eccentricity minor_axis)
+         (- major_axis minor_axis)) (- major_axis
+         minor_axis))) minor_axis))) (exp (+ (* perimeter
+     0.0) minor_axis))) (exp (+ minor_axis (exp
+     (/ (- (+ eccentricity minor_axis) (/ (exp
+         0.0) (rlog area))) major_axis))))))))))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=207.0 Adjusted=0.004807692307692308 Hits=1317
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (/ (rlog
+     (rlog minor_axis)) major_axis))) (- (/ (*
+     convex_area (/ (exp 0.0) (rlog (rlog (rlog
+     minor_axis))))) (- (rlog minor_axis) (rlog
+     (/ extent (* minor_axis (- minor_axis (exp
+         (+ minor_axis extent)))))))) (/ (* perimeter
+     0.0) (- (- (rlog (- (+ eccentricity minor_axis)
+     (- (rlog (- (- (+ eccentricity minor_axis)
+         (- major_axis minor_axis)) (- major_axis
+         minor_axis))) minor_axis))) (exp (+ (+ minor_axis
+     extent) minor_axis))) (- major_axis minor_axis)))))))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=205.0 Adjusted=0.0048543689320388345 Hits=1319
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp (+ minor_axis (rlog eccentricity)))))))
+     (- (/ (+ minor_axis extent) (- (/ (/ (/ minor_axis
+         (/ (/ (rlog area) (rlog eccentricity)) extent))
+         (rlog minor_axis)) (- (* minor_axis eccentricity)
+         (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)))) (* minor_axis eccentricity)))
+         perimeter))))))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=204.0 Adjusted=0.004878048780487805 Hits=1320
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (rlog (/ extent (* minor_axis
+     (- minor_axis (exp minor_axis))))) (- (/
+     (/ (- major_axis minor_axis) (rlog extent))
+     (rlog (- (+ eccentricity minor_axis) (* area
+         eccentricity)))) perimeter))))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=193.0 Adjusted=0.005154639175257732 Hits=1331
+Tree 0:
+ (- (rlog (- (- minor_axis extent) (- major_axis
+     minor_axis))) (exp (+ (* perimeter 0.0) (exp
+     (/ (rlog (/ (rlog minor_axis) (* minor_axis
+         (- minor_axis (exp (+ minor_axis extent))))))
+         (- (/ (/ (/ minor_axis (+ eccentricity minor_axis))
+             (rlog minor_axis)) (- (rlog (/ area minor_axis))
+             (exp eccentricity))) perimeter))))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=186.0 Adjusted=0.0053475935828877 Hits=1338
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (rlog extent) (- (rlog
+         (- (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)) (- major_axis minor_axis)))
+         minor_axis))) (exp (+ (* perimeter 0.0) minor_axis)))
+         (exp (+ minor_axis (exp (/ (- (+ eccentricity
+             minor_axis) (- major_axis minor_axis)) major_axis))))))))))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=186.0 Adjusted=0.0053475935828877 Hits=1338
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (rlog extent) (- (rlog
+         (- (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)) (- major_axis minor_axis)))
+         minor_axis))) (exp (+ (* perimeter 0.0) minor_axis)))
+         (exp (+ minor_axis (exp (/ (- (+ eccentricity
+             minor_axis) (- major_axis minor_axis)) major_axis))))))))))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=186.0 Adjusted=0.0053475935828877 Hits=1338
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (/ (+ eccentricity minor_axis) (exp
+         (* minor_axis eccentricity))) (exp (+ minor_axis
+         (exp (/ (- (+ eccentricity minor_axis) (/
+             (exp 0.0) (rlog area))) major_axis))))))))))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ eccentricity minor_axis)))))))) (/
+         (* perimeter 0.0) (- (/ (+ eccentricity minor_axis)
+         (exp (* minor_axis eccentricity))) (exp (+
+         minor_axis (exp (/ (- (+ eccentricity minor_axis)
+         (/ (exp 0.0) (rlog area))) major_axis))))))))))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ (rlog
+     (rlog (rlog minor_axis))) minor_axis) (-
+     major_axis minor_axis)))) (- (/ (* convex_area
+     (/ (exp 0.0) (rlog (rlog (rlog minor_axis)))))
+     (- (rlog minor_axis) (rlog (/ extent (* minor_axis
+         (- minor_axis (exp (+ eccentricity minor_axis))))))))
+     (/ (* perimeter 0.0) (- (/ (+ eccentricity
+         minor_axis) (exp (* minor_axis eccentricity)))
+         (exp (+ minor_axis (exp (/ (- (+ eccentricity
+             minor_axis) (/ (exp 0.0) (rlog area))) major_axis))))))))))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog (- (+ (rlog
+         eccentricity) minor_axis) (- major_axis minor_axis)))
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (rlog extent) (- (rlog
+         (- (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)) (- major_axis minor_axis)))
+         minor_axis))) (exp (+ (* perimeter 0.0) minor_axis)))
+         (exp (exp (- minor_axis (exp (+ minor_axis
+             extent)))))))))))))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog (- (+ (rlog
+         eccentricity) minor_axis) (- major_axis minor_axis)))
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (rlog extent) (- (rlog
+         (- (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)) (- major_axis minor_axis)))
+         minor_axis))) (* perimeter 0.0)) (exp (+
+         minor_axis (exp (/ (- (+ eccentricity minor_axis)
+         (- major_axis minor_axis)) major_axis))))))))))))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog (- (+ (rlog
+         eccentricity) minor_axis) (- major_axis minor_axis)))
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (rlog extent) (- (rlog
+         (- (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)) (- major_axis minor_axis)))
+         minor_axis))) (* perimeter 0.0)) (exp (+
+         minor_axis (exp (/ (- (+ eccentricity minor_axis)
+         (- major_axis minor_axis)) major_axis))))))))))))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=184.0 Adjusted=0.005405405405405406 Hits=1340
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog (- (+ (rlog
+         eccentricity) minor_axis) (- major_axis minor_axis)))
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (exp 0.0)) (* perimeter
+         0.0)) (exp (+ minor_axis (exp (/ (- (+ eccentricity
+         minor_axis) (- major_axis minor_axis)) major_axis))))))))))))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=183.0 Adjusted=0.005434782608695652 Hits=1341
+Tree 0:
+ (- (rlog (- (+ (/ (exp 0.0) (rlog area))
+     minor_axis) (- major_axis minor_axis))) (exp
+     (+ (* perimeter 0.0) (exp (/ (+ minor_axis
+         (exp (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)))) (- (/ (* convex_area (/ (exp
+         0.0) (rlog (rlog (rlog minor_axis))))) (-
+         (rlog (- (+ (rlog eccentricity) minor_axis)
+             (- major_axis minor_axis))) (rlog (/ extent
+         (* minor_axis (- minor_axis (exp (+ minor_axis
+             extent)))))))) (/ (* perimeter 0.0) (- (-
+         (rlog (- (rlog extent) (- (rlog (- (- (+
+             eccentricity minor_axis) (+ minor_axis extent))
+             (- major_axis minor_axis))) minor_axis)))
+         (exp (+ (* perimeter 0.0) minor_axis))) (exp
+         (exp (- minor_axis (exp (+ minor_axis extent)))))))))))))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=183.0 Adjusted=0.005434782608695652 Hits=1341
+Tree 0:
+ (- (rlog (- (+ (/ (- (+ eccentricity minor_axis)
+     (- major_axis minor_axis)) (- major_axis
+     minor_axis)) minor_axis) (- major_axis minor_axis)))
+     (exp (+ (* perimeter 0.0) (exp (/ (+ minor_axis
+         (exp (- (+ eccentricity minor_axis) (- major_axis
+             minor_axis)))) (- (/ (* convex_area (/ (exp
+         0.0) (rlog (rlog (rlog minor_axis))))) (-
+         (rlog minor_axis) (rlog (/ extent (* minor_axis
+         (- minor_axis (exp (+ minor_axis extent))))))))
+         (/ (* perimeter 0.0) (- (- (rlog (- (* convex_area
+             (/ extent (rlog (+ eccentricity minor_axis))))
+             (rlog minor_axis))) (exp (+ (* perimeter
+             0.0) minor_axis))) (exp (+ minor_axis (exp
+             (/ (- (+ eccentricity minor_axis) (- major_axis
+                 minor_axis)) major_axis))))))))))))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=182.0 Adjusted=0.00546448087431694 Hits=1342
+Tree 0:
+ (- (rlog (- (- minor_axis extent) (- major_axis
+     minor_axis))) (exp (+ (* perimeter 0.0) (exp
+     (/ (+ minor_axis (exp (- (+ eccentricity
+         minor_axis) (- major_axis minor_axis))))
+         (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+             (rlog minor_axis))))) (- (rlog minor_axis)
+             (rlog (/ extent (* minor_axis (- minor_axis
+                 (exp (+ minor_axis extent)))))))) (/ (* perimeter
+             0.0) (/ (* perimeter 0.0) (- (/ (+ eccentricity
+             minor_axis) (exp (* minor_axis eccentricity)))
+             (exp (+ minor_axis (exp (/ (- (+ eccentricity
+                 minor_axis) (/ (* perimeter 0.0) (* perimeter
+                 0.0))) major_axis)))))))))))))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=182.0 Adjusted=0.00546448087431694 Hits=1342
+Tree 0:
+ (- (rlog (- (- minor_axis extent) (- major_axis
+     minor_axis))) (exp (+ (* perimeter 0.0) (exp
+     (/ (+ minor_axis (exp (- (+ eccentricity
+         minor_axis) (- major_axis minor_axis))))
+         (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+             (rlog minor_axis))))) (- (rlog minor_axis)
+             (rlog (/ extent (* minor_axis (- minor_axis
+                 (exp (+ minor_axis extent)))))))) (/ (* perimeter
+             0.0) (/ (* perimeter 0.0) (- (/ (+ eccentricity
+             minor_axis) (exp (* minor_axis eccentricity)))
+             (exp (+ minor_axis (exp (/ (- (+ eccentricity
+                 minor_axis) (/ (* perimeter 0.0) (* perimeter
+                 0.0))) major_axis)))))))))))))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=181.0 Adjusted=0.005494505494505495 Hits=1343
+Tree 0:
+ (- (rlog (- (+ eccentricity minor_axis) (-
+     major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (* (+ eccentricity
+         minor_axis) (/ (+ eccentricity minor_axis)
+         (/ area extent))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ eccentricity minor_axis)))))))) (/
+         (* perimeter 0.0) (- (/ (+ eccentricity minor_axis)
+         (+ eccentricity minor_axis)) (exp (+ minor_axis
+         (exp 0.0)))))))))))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=178.0 Adjusted=0.00558659217877095 Hits=1346
+Tree 0:
+ (- (rlog (- (+ (/ (- (+ eccentricity minor_axis)
+     (- major_axis minor_axis)) (- (rlog minor_axis)
+     (rlog (/ extent (* minor_axis (- minor_axis
+         (exp (+ minor_axis extent)))))))) minor_axis)
+     (- major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (* convex_area (/ extent
+         (rlog (+ eccentricity minor_axis)))) (rlog
+         minor_axis))) (exp (+ (* perimeter 0.0) minor_axis)))
+         (exp (+ minor_axis (exp (/ (- (+ eccentricity
+             minor_axis) (- major_axis minor_axis)) major_axis))))))))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=178.0 Adjusted=0.00558659217877095 Hits=1346
+Tree 0:
+ (- (rlog (- (+ (/ (- (+ eccentricity minor_axis)
+     (- major_axis minor_axis)) (- (rlog minor_axis)
+     (rlog (/ extent (* minor_axis (- minor_axis
+         (exp (+ minor_axis extent)))))))) minor_axis)
+     (- major_axis minor_axis))) (exp (+ (* perimeter
+     0.0) (exp (/ (+ minor_axis (exp (- (+ eccentricity
+     minor_axis) (- major_axis minor_axis))))
+     (- (/ (* convex_area (/ (exp 0.0) (rlog (rlog
+         (rlog minor_axis))))) (- (rlog minor_axis)
+         (rlog (/ extent (* minor_axis (- minor_axis
+             (exp (+ minor_axis extent)))))))) (/ (* perimeter
+         0.0) (- (- (rlog (- (* convex_area (/ extent
+         (rlog (+ eccentricity minor_axis)))) (rlog
+         minor_axis))) (exp (+ (* perimeter 0.0) minor_axis)))
+         (exp (+ minor_axis (exp (/ (- (+ eccentricity
+             minor_axis) (- major_axis minor_axis)) major_axis))))))))))))

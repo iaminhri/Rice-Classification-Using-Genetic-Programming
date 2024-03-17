@@ -1,0 +1,79 @@
+parent.0 = koza.params
+
+#gp.tree.print-style=latex
+# we have one function set, of class GPFunctionSet
+
+gp.fs.size = 1
+gp.fs.0 = ec.gp.GPFunctionSet
+
+# We will call the function set "f0".
+
+gp.fs.0.name = f0
+
+# We have five functions in the function set. They are:
+
+gp.fs.0.size = 14
+
+-------------------------------------------------
+#Modified Section:
+
+gp.fs.0.func.0 = functions.Area
+gp.fs.0.func.0.nc = nc0
+
+gp.fs.0.func.1 = functions.Mul
+gp.fs.0.func.1.nc = nc2
+
+gp.fs.0.func.2 = functions.Add
+gp.fs.0.func.2.nc = nc2
+
+gp.fs.0.func.3 = functions.Sub
+gp.fs.0.func.3.nc = nc2
+
+gp.fs.0.func.4 = functions.Div
+gp.fs.0.func.4.nc = nc2
+
+gp.fs.0.func.5 = functions.Ephemeral
+gp.fs.0.func.5.nc = nc0
+
+gp.fs.0.func.6 = functions.Exp
+gp.fs.0.func.6.nc = nc1
+
+gp.fs.0.func.7 = functions.Log
+gp.fs.0.func.7.nc = nc1
+
+gp.fs.0.func.8 = functions.Convex_Area
+gp.fs.0.func.8.nc = nc0
+
+gp.fs.0.func.9 = functions.Eccentricity
+gp.fs.0.func.9.nc = nc0
+
+gp.fs.0.func.10 = functions.Extent
+gp.fs.0.func.10.nc = nc0
+
+gp.fs.0.func.11 = functions.Major_Axis_Length
+gp.fs.0.func.11.nc = nc0
+
+gp.fs.0.func.12 = functions.Minor_Axis_Length
+gp.fs.0.func.12.nc = nc0
+
+gp.fs.0.func.13 = functions.Perimeter
+gp.fs.0.func.13.nc = nc0
+
+
+pop.subpop.0.size = 1024
+generations = 51
+
+select.tournament.size = 3
+
+jobs=3
+
+eval.problem = rice_gp.RiceClassificaiton
+eval.problem.data = rice_gp.FloatData
+
+# output Statistics to the file "out.stat" in the directory
+# the run was started in 
+stat.file					$out.stat
+
+
+
+
