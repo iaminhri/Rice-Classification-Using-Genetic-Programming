@@ -1,4 +1,4 @@
-<b>1 Summary </b>
+<b> Summary </b> <br>
 The rice classification problem aims to predict the class of Cammeo rice and Osmancik rice, <br>
 which is being analyzed based on a dataset with summary measurements of rice derived from <br>
 image data. The dataset’s attributes are Area, Perimeter, Major and Minor Axis length, <br>
